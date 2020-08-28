@@ -3,7 +3,7 @@ html,body {
     width: 100%;
 }
 #container {
-    width: 400px;
+    width: 500px;
     height: 600px;
     text-align: center;
     display: grid;
@@ -11,6 +11,7 @@ html,body {
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 100px auto;
     margin: auto;
+   
 }
 #display { 
     text-align: right;
@@ -19,21 +20,16 @@ html,body {
     grid-column-start: 1;
     grid-column-end: 5;
     border: solid;
+    border-radius: 5px;
     background-color: yellow;
 }
 button {
     cursor: pointer;
     border: solid;
     border-radius: 5px;
+    outline-color: white;
 }
-.operator {
+.operator, .btns {
     background-color: orange;
-}
-#zero {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-#equal {
-    grid-column-start: 3;
-    grid-column-end: 5; 
+
 }
